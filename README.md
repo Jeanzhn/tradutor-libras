@@ -3,7 +3,7 @@
 🌟 UMA PONTE PARA A COMUNICAÇÃO INCLUSIVA
 
 Este projeto representa mais do que um exercício de programação; é uma iniciativa de responsabilidade social e tecnológica. O repositório abriga o código-fonte de uma aplicação web dedicada a quebrar barreiras comunicacionais, utilizando a câmera do dispositivo para interpretar a Língua Brasileira de Sinais (Libras) em tempo real. Nossa missão é transformar a tecnologia em uma ferramenta ativa de inclusão.
-=====================================================================
+
 🎓 Contexto Acadêmico e Visão Comunitária
 
 Este trabalho é a culminância dos conhecimentos adquiridos no 4º semestre do curso de Engenharia da Computação do Centro Universitario Meta.
