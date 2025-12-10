@@ -12,10 +12,7 @@ h2 {
     margin-top:0; 
 }
 
-.input_video {
-  display: none;
-}
-.output_canvas {
+.captureCanvas {
   transform: scaleX(-1);
 }
 
