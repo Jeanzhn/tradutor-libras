@@ -7,7 +7,7 @@ import numpy as np
 import base64
 import re
 
-model = load_model('keras_model.h5')
+model = load_model('keras_model1.h5')
 
 # Mediapipe
 hands = mp.solutions.hands.Hands(
