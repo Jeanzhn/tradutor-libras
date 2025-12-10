@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sobre - Tradutor de Libras</title>
-    <link rel="stylesheet" href="static/css/stylesFred.css">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sobre - Tradutor de Libras</title>
+<link rel="stylesheet" href="../static/css/stylesFred.css">
 </head>
-
 <body>
-    <header class="topbar">
-        <div class="brand">📘 Tradutor de Libras</div>
-        <nav class="topnav">
-            <a href="/">Menu</a>
-            <a href="/traduzir">Traduzir</a>
-            <a href="/configuracoes">Configurações</a>
-            <a href="/ajuda">Ajuda</a>
-            <a href="/sobre" class="active">Sobre</a>
-        </nav>
-    </header>
+<header class="topbar">
+<div class="brand">Tradutor de Libras</div>
+<nav class="topnav">
+<a href="/">Menu</a>
+<a href="configuracoes.html">Configurações</a>
+<a href="ajuda.html">Ajuda</a>
+<a href="sobre.html" class="active">Sobre</a>
+</nav>
+</header>
 
 
-    <main class="container small">
-        <h2>Sobre o Projeto</h2>
-        <p>Projeto de conclusão de disciplina - Tradutor de Libras em vídeo.</p>
-        <p>Integrantes:</p>
-        <ul>
-            <li>Brenner.</li>
-            <li>Danilo.</li>
-            <li>Fredson Renato.</li>
-            <li>Jean gustavo.</li>
-            <li>Igor.</li>
-            <br></br>
+<main class="container small">
+<h2>Sobre o Projeto</h2>
+<p>Projeto de conclusão de disciplina - Tradutor de Libras em vídeo.</p>
+<p>Integrantes:</p>
+<ul>
+<li>Brenner.</li>
+<li>Danilo.</li>
+<li>Fredson Renato.</li>
+<li>Jean gustavo.</li>
+<li>Igor.</li>
+  <br></br>
             <div style="text-align: center;">
                 <h2>Stack Tecnológico</h2>
             </div>
@@ -55,9 +52,7 @@
 
         </ul>
     </main>
-
-
-    <script src="app.js"></script>
+<script src="{{ url_for('static', filename='scripts/app.js') }}"></script>
+<script src="{{ url_for('static', filename='scripts/tradutor.js') }}"></script>
 </body>
-
 </html>
