@@ -30,7 +30,7 @@ Backend Core: O micro-framework Python Flask serve como espinha dorsal da aplica
 
 Interface Dinâmica: O Frontend é construído em HTML5, CSS e JavaScript, proporcionando uma experiência de usuário fluida e responsiva.
 
-Inteligência Visual: A detecção de mãos é potencializada pela MediaPipe Hands (via CDN), uma tecnologia de ponta para análise de esqueleto de mão.
+Inteligência Visual: A detecção de mãos é potencializada pela MediaPipe Hands (via CDN), mais modelo IA treinado com Teachable Machine, uma tecnologia de ponta para análise de esqueleto de mão.
 
 🚀 Guia de Implantação Rápida
 
@@ -38,7 +38,7 @@ Para testar a capacidade de inclusão do projeto localmente, siga este guia:
 
 Pré-requisitos Essenciais
 
-Python 3.x
+Python 3.9x
 
 A biblioteca Flask (pip install flask)
 
@@ -51,10 +51,7 @@ cd [Nome da Pasta do Projeto]
 
 
 Instalação de Dependências:
-
-pip install -r requirements.txt 
-(Ou apenas 'pip install flask' se não houver requirements.txt)
-
+Neste projeto utilizamos várias bibliotecas essencias, para que o codigo como todo funcione é necessário sua instalação com... pip install -r requirements.txt 
 
 Inicialização do Servidor (Ponto de Entrada: main.py):
 O ambiente será iniciado em modo de debug para fácil desenvolvimento.
