@@ -46,17 +46,14 @@ Passos para Configuração
 
 Clonagem e Preparação:
 
-git clone [https://www.youtube.com/watch?v=RqfwLeY952s](https://www.youtube.com/watch?v=RqfwLeY952s)
-cd [Nome da Pasta do Projeto]
-
+git clone https://github.com/Jeanzhn/tradutor-libras.git cd [Nome da Pasta do Projeto]
 
 Instalação de Dependências:
 Neste projeto utilizamos várias bibliotecas essencias, para que o codigo como todo funcione é necessário sua instalação com... pip install -r requirements.txt 
 
 Inicialização do Servidor (Ponto de Entrada: main.py):
 O ambiente será iniciado em modo de debug para fácil desenvolvimento.
-
-python main.py
+Digite no terminal "python main.py"
 
 Acesso à Aplicação:
 Abra o seu navegador e navegue para o endereço local:
@@ -64,6 +61,8 @@ Abra o seu navegador e navegue para o endereço local:
 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 Atenção: Certifique-se de que sua câmera está acessível e desbloqueada para o navegador.
+
+#Ao criar uma máquina virtual com "python -m venv nome_do_ambiente (ex: python -m venv .venv).", faça a ativação utilizando: 1° ".\nome_do_ambiente\Scripts\activate.ps1" logo em seguida depois que a venv for ativada e no terminal no começo da linha aparecer "(.venv)" digite então  "python -m pip install -r requirements.txt" para instalar as depedencias na sua maquina virtual.
 
 Desenvolvedor(a) Líder: Grupo Fellas
 A tecnologia deve servir à humanidade, e este projeto é o nosso compromisso com essa visão.
